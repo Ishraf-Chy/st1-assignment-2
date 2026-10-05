@@ -24,12 +24,21 @@ def add_appointment(patient, doctor, date, time):
     print("Appointment added successfully.")
 
 
-# Add appointments
+# Original appointments
 add_appointment("John", "Dr Smith", "10/10/2026", "10:00 AM")
 add_appointment("Sarah", "Dr Jones", "11/10/2026", "2:00 PM")
 
-# Try to book Dr Smith at the same date and time
+# Duplicate booking test
 add_appointment("Michael", "Dr Smith", "10/10/2026", "10:00 AM")
+
+# Normal booking test
+add_appointment("Emma", "Dr Brown", "12/10/2026", "11:00 AM")
+
+# Blank patient name test
+add_appointment("", "Dr Brown", "13/10/2026", "1:00 PM")
+
+# Strange input test
+add_appointment(None, "Dr Jones", "14/10/2026", None)
 
 
 # Display appointments
