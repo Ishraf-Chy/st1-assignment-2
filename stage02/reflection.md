@@ -1,0 +1,7 @@
+The AI review helped spot parts of the SmartCare requirements that were still not clear. One big issue was that the system must handle information but the client brief did not say which specific details should be stored. Another problem was about appointment status. It was mentioned as an issue. The exact status values like "confirmed" or "cancelled" were not defined. Of guessing these were left as open questions.
+
+Some suggestions from the AI went beyond what had been confirmed. For example adding SMS or email reminders and online payment options seemed useful.. There was not enough proof in the client brief to say that SmartCare really needs them. So those ideas were not included as functional requirements.
+
+After the review the rule about bookings was made clearer. It now says the system must stop the practitioner from having overlapping appointments at the same time. A failure acceptance criterion was added too. This shows what the system should do when someone tries to book a time. For example displaying an error message.
+
+Requirements need evidence. Without it adding features can expand the project scope. Lead to extra work. Evidence makes sure every requirement ties back to a problem or need from the client. That way the system stays focused, on what's actually needed.
